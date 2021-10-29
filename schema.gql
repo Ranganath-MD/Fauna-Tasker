@@ -1,0 +1,9 @@
+type OfficeTask {
+  title: String!
+  sprint: Int!
+  week: Int!
+}
+
+type Query {
+  allTasks: [OfficeTask!]!
+}

@@ -3,15 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 5000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 5000",
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/react": "^2.2.0",
+    "@geist-ui/react-icons": "^1.0.1",
+    "faunadb": "^4.4.1",
+    "graphql": "^15.6.1",
+    "graphql-request": "^3.6.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.17.5",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "17.0.32",
